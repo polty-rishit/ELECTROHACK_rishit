@@ -1,5 +1,44 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+login creadentials : user email : test@example.com
+pass : password123
+
+# *Startup Ecosystem Integrator*
+
+## *Project Overview*
+Startup Ecosystem Integrator is a digital platform designed to connect budding entrepreneurs with essential resources, mentors, and potential investors. It facilitates networking, provides curated tools, and fosters meaningful interactions to empower startups and increase their success rate.
+
+---
+
+## *Key Features*
+- *Dashboard*: A centralized hub for connecting with mentors, investors, and resources.
+- *Search Functionality*: Quickly find relevant information with a user-friendly search bar.
+- *Interactive Cards*: Navigate to key sections like Mentors, Investors, Resources, and Networking Events.
+- *Chatbot Integration*: Engage with a conversational assistant powered by Dialogflow for quick help and guidance.
+- *Authentication*: User login and registration system for personalized experiences (to be added).
+
+---
+
+## *Technologies Used*
+### *Frontend*
+- *Next.js* (React Framework)
+- *TypeScript* (Static Typing)
+- *CSS* (Styling)
+
+### *Backend*
+- *Next.js API Routes* (For lightweight backend features)
+
+### *Chatbot*
+- *Dialogflow* (AI-powered conversational agent)
+
+---
+
+## *Project Structure*
+
+
+
+
+
 ## Getting Started
 
 First, run the development server:
