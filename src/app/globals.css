@@ -1,0 +1,213 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles for body */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Main layout styles */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  display: block;
+}
+
+/* Card Container Layout (Grid) */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+/* Card Styles */
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  max-width: 350px;
+  text-align: left;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+
+  main {
+    padding: 10px;
+  }
+}
+
+/* Events Page Styles */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.events-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.event-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.event-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.event-card p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .events-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* styles/globals.css */
+
+/* Chatbot Styles */
+.chatbot-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.chatbot-messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-message {
+  font-weight: bold;
+  color: #1a73e8;
+}
+
+.bot-message {
+  font-style: italic;
+  color: #333;
+}
+
+form {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0c5d99;
+}
